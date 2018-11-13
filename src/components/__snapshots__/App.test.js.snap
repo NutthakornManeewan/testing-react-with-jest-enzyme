@@ -21,9 +21,8 @@ ShallowWrapper {
         <h2>
           Loot Check
         </h2>,
-        <p>
-          This app build for test with the TDD process!
-        </p>,
+        <hr />,
+        <Connect(Wallet) />,
       ],
     },
     "ref": null,
@@ -43,12 +42,19 @@ ShallowWrapper {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
-        "props": Object {
-          "children": "This app build for test with the TDD process!",
-        },
+        "props": Object {},
         "ref": null,
-        "rendered": "This app build for test with the TDD process!",
-        "type": "p",
+        "rendered": null,
+        "type": "hr",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
       },
     ],
     "type": "div",
@@ -63,9 +69,8 @@ ShallowWrapper {
           <h2>
             Loot Check
           </h2>,
-          <p>
-            This app build for test with the TDD process!
-          </p>,
+          <hr />,
+          <Connect(Wallet) />,
         ],
       },
       "ref": null,
@@ -85,12 +90,19 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
-          "props": Object {
-            "children": "This app build for test with the TDD process!",
-          },
+          "props": Object {},
           "ref": null,
-          "rendered": "This app build for test with the TDD process!",
-          "type": "p",
+          "rendered": null,
+          "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
         },
       ],
       "type": "div",

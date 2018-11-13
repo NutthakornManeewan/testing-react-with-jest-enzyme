@@ -11,6 +11,7 @@
     "react-redux": "^5.1.1",
     "react-scripts": "2.1.1",
     "react-test-renderer": "^16.6.3",
+    "redux": "^4.0.1",
     "sfcookies": "^1.0.2"
   },
   "scripts": {
@@ -19,12 +20,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "jest": [
-    "src/**/*.js",
-    "!src/index.js",
-    "!src/tempPolyfills.js",
-    "!src/setupTests.js"
-  ],
   "eslintConfig": {
     "extends": "react-app"
   },
